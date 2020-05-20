@@ -715,9 +715,6 @@ write(iout,"(//, 1x,65('*'),/, 1x,'***  Properties of Intrinsic Fragmental Vibra
 
 write(iout,"(/, ' Results of vibrations:',/,' Normal frequencies (cm^-1), reduced masses (AMU), force constants (mDyn/A)')")
 
-!print *,subsystem_idx(1)
-!print *,subsystem_idx(2)
-
  if(1 == 1)then
    NLine=(NVib-1)/3+1
    do i=1,NLine
