@@ -74,6 +74,9 @@ Do I=1,NAtm
   end if
 End Do
 
+if(NAtm_sub < 2)then
+  call XError(.True.,"Subsystem for GSVA requires at least two atoms!")
+end if
 
 write(iout,"(//,' -- Generalized Subsystem Vibrational Analysis (GSVA) --',//,&
 ' Subsystem has',1x,1I5,2x, 'atoms:')")(NAtm_sub)
