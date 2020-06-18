@@ -1,0 +1,14 @@
+a test job
+
+ $contrl
+   qcprog="gaussian"
+   ifgsva=.true.
+ $end
+
+ $gsva
+   subsystem="73-77" 
+ $end
+
+ $qcdata
+   fchk="ch4-bn36-freq-symmTd.fchk"
+ $end
