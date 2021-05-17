@@ -1,0 +1,14 @@
+a test job
+
+ $contrl
+   qcprog="gaussian"
+   ifgsva=.true.
+ $end
+
+ $gsva
+   subsystem="44,47,63-65,68,85,84,66,46" 
+ $end
+
+ $qcdata
+   fchk="corhg-opt.fchk"
+ $end

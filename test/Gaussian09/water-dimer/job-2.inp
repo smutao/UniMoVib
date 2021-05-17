@@ -3,12 +3,13 @@ a test job
  $contrl
    qcprog="gaussian"
    ifgsva=.true.
+   ifpyvibms=.true.
  $end
 
  $gsva
-   subsystem="63-65,84,85" 
+   subsystem="1,2,3" 
  $end
 
  $qcdata
-   fchk="corhg-opt.fchk"
+   fchk="0000-w2-lm0.fchk"
  $end
