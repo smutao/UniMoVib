@@ -1,0 +1,15 @@
+a test job
+
+ $contrl
+   qcprog="gaussian"
+   ifgsva=.true.
+   ifpyvibms=.false.
+ $end
+
+ $gsva
+   subsystem="4-6" 
+ $end
+
+ $qcdata
+   fchk="dimer-scan-14-s12.fchk"
+ $end
